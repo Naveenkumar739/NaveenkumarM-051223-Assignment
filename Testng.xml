@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" allow-return-values="true">
+    <test verbose="1" preserve-order="true" name="D:\Assessment project\QualitrixProject">
+        <parameter name="baseURL" value="https://tutorialsninja.com/demo/"/>
+        <classes>
+            <class name="SeleniumProject.Login_Test"></class>
+        </classes>
+    </test>
+</suite>
